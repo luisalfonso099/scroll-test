@@ -1,21 +1,11 @@
-
-
 import { Cards } from './components/Cards'
 import Blogs from './components/Blogs';
-
 export default function Home() {
 
   return (
     <main className="">
-      {/* <Blogs /> */}
+      <Blogs />
       <Cards />
-      <Blogs />
-      <Blogs />
-      <Blogs />
-      <Blogs />
-      <Blogs />
-      <Blogs />
-      <Blogs />
       <Blogs />
       <Blogs />
     </main>

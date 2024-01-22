@@ -1,26 +1,14 @@
 'use client'
-import React, { useEffect,useRef } from 'react';
-import AnimationScroll from '../helper/animation';
+import React, { useEffect } from 'react';
 
-export const Cards = () => {
-    useEffect(() => {
-
-        let myScene = new AnimationScroll('#Capa_2', '#trigger1')
-        myScene.init()
-        return () => {
-            if (myScene) {
-                myScene.destroy();
-            }
-        };
+export const Reactscroll = () => {
+   
     
-    }, []);
-
     return (
-        <section >
-            <div className="spacer s2"></div>
-            <div id="trigger1" className="spacer s1"></div>
-            <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 974.36 119.63">
-                <g data-name="Capa 1">
+        <>
+            {/* <div id="trigger1" className="spacer s1"></div> */}
+            {/* <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 974.36 119.63">
+                <g  data-name="Capa 1">
                     <g>
                         <path className="cls-3" d="M188.84,111.99c-4.76-5.09-7.14-12.29-7.14-21.59V29.27c0-9.3,2.38-16.5,7.14-21.59C193.6,2.59,200.47.04,209.44.04s15.83,2.55,20.6,7.64c4.76,5.09,7.14,12.29,7.14,21.59v61.12c0,9.3-2.38,16.5-7.14,21.59-4.76,5.09-11.63,7.64-20.6,7.64s-15.84-2.55-20.6-7.64ZM218.91,91.56V28.11c0-7.64-3.16-11.46-9.47-11.46s-9.47,3.82-9.47,11.46v63.45c0,7.64,3.16,11.46,9.47,11.46s9.47-3.82,9.47-11.46Z" />
                         <path className="cls-3" d="M354.27,1.7h24.75l18.94,116.27h-18.27l-3.32-23.09v.33h-20.76l-3.32,22.75h-16.94L354.27,1.7ZM374.2,79.43l-8.14-57.47h-.33l-7.97,57.47h16.44Z" />
@@ -44,8 +32,7 @@ export const Cards = () => {
                     <path className="cls-3" d="M784.93,1.66h22.92l17.77,69.59h.33V1.66h16.28v116.27h-18.77l-21.92-84.87h-.33v84.87h-16.28V1.66Z" />
                     <path className="cls-3" d="M861.5,112.03c-4.65-5.04-6.98-12.26-6.98-21.68V29.23c0-9.41,2.33-16.64,6.98-21.68,4.65-5.04,11.4-7.56,20.26-7.56s15.61,2.52,20.26,7.56c4.65,5.04,6.98,12.27,6.98,21.68v9.97h-17.27v-11.13c0-7.64-3.16-11.46-9.47-11.46s-9.47,3.82-9.47,11.46v63.61c0,7.53,3.16,11.29,9.47,11.29s9.47-3.76,9.47-11.29v-22.75h-9.13v-16.61h26.41v38.04c0,9.41-2.33,16.64-6.98,21.68-4.65,5.04-11.41,7.56-20.26,7.56s-15.61-2.52-20.26-7.56Z" />
                 </g>
-            </svg>
-            <div className="spacer s2"></div>
-        </section>
+            </svg> */}
+        </>
     )
 }
